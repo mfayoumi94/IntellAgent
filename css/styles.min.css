@@ -626,6 +626,7 @@ html.svg .has-svg-text svg {
 html.svg #hero-section .hero-text h1.is-visible .letter {
     animation: a .8s cubic-bezier(.455, .03, .515, .955) forwards
 }
+
 #hero-section .hero-text h1:after {
     content: "";
     display: block;
@@ -718,6 +719,7 @@ html.svg #hero-section .hero-text h1.is-visible .letter {
     display: flex;
     justify-content: center
 }
+
 @media screen and (max-width: 991px) {
     #hero-canvas {
         display: none;
@@ -1361,6 +1363,17 @@ html.svg .product__info.is-visible .letter {
     display: flex;
     min-height: 100vh;
     background: #fff
+}
+#functionality-section {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    font: normal 200 26px/1.5 Nunito, sans-serif;
+    background: #f9f9f9;
+    height: 100vh; 
+    width: 100vw; 
 }
 #google-map {
     order: -1;
