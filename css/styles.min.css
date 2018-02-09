@@ -905,7 +905,7 @@ html.svg #hero-section .hero-text h1.is-visible .letter {
 
 #intro-section {
     position: relative;
-    z-index: 1;
+    z-x: 1;
     display: flex;
     align-items: center;
     padding: 100px;

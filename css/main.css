@@ -58,3 +58,47 @@ a{
 	margin-bottom: 12px;
 	font-weight: normal;
 }
+
+#overlay_robot {
+    overflow: hidden;
+    height: 95vh;
+    width: 100vw;
+    z-index: 999;
+    background-color: rgba(240, 240, 240, 0.7) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    visibility: hidden;
+    transition: visibility 0.2s, opacity 0.2s ease-out;    
+}
+
+#overlay_robot ul {
+    position: absolute;
+    top: 20vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(240, 240, 240, 0.7);
+    text-align: center;
+}
+
+#overlay_robot ul li {
+    padding-top: 5vh;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+#overlay_robot ul li a {
+    color: black;
+    font-size: 3em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#overlay_robot ul li a:hover {
+    color: #fea530;
+}
+
+
