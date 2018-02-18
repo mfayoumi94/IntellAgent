@@ -1333,7 +1333,7 @@ html.svg .product__info.is-visible .letter {
     width: 100vw; 
 }
 
-#scitech-section {
+#engineering-section {
     position: relative;
     z-index: 1;
     display: flex;
@@ -1980,4 +1980,32 @@ html.svg #connect-section .locations h2.is-visible .letter {
 }
 .g-recaptcha {
     display: none!important
+}
+.order_button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 40px;
+    cursor: pointer;
+    outline: none;
+    width: 180px;
+    height: 51px;
+    font: normal normal 14px Nunito, sans-serif;
+    color: #fff;
+    border: none;
+    background: #028dff;
+    border-radius: 99px;
+}
+.blur {
+        background: url('https://images.unsplash.com/photo-1486723312829-f32b4a25211b?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=') no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+        filter: blur(13px);
+        position: absolute;
+        height: 300px;
+        top: -50px;
+        left: -50px;
+        right: -50px;
+        bottom: -50px;
+      }
+
 }
